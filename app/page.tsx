@@ -1,5 +1,5 @@
-import { X, DiamondPercent, Search, Bomb  } from "lucide-react";
-import { MoveRight,UserRoundCheck,ShoppingBag   } from "lucide-react";
+import { X, DiamondPercent, Search, Bomb } from "lucide-react";
+import { MoveRight, UserRoundCheck, ShoppingBag } from "lucide-react";
 export default function Home() {
   return (
     <main>
@@ -48,13 +48,13 @@ export default function Home() {
             </li>
             <li>
               <a>
-                <ShoppingBag  />
+                <ShoppingBag />
               </a>
             </li>
             <li>
               <a>
                 <p>
-                 <Bomb  />
+                  <Bomb />
                 </p>
               </a>
             </li>
