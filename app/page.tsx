@@ -1,7 +1,7 @@
 import { X, DiamondPercent } from "lucide-react";
 import { MoveRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero"
+import Hero from "@/components/Hero";
 export default function Home() {
   return (
     <main>
@@ -18,8 +18,8 @@ export default function Home() {
       <button className="absolute right-2 top-1">
         <X />
       </button>
-     <Navbar />
-     <Hero />
+      <Navbar />
+      <Hero />
     </main>
   );
-}                    
+}
