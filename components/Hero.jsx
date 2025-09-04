@@ -16,9 +16,9 @@ const Hero = () => {
           </h2>
         </div>
         <div className="font-normal text-[20px] text-[#FEFEFE] leading-[32px] opacity-80">
-            Whether you’re just starting out, have played <br />
-            your whole life or you're a Tour pro, your <br />
-            swing is like a fingerprint.
+          Whether you’re just starting out, have played <br />
+          your whole life or you're a Tour pro, your <br />
+          swing is like a fingerprint.
         </div>
       </div>
     </div>
@@ -26,4 +26,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
