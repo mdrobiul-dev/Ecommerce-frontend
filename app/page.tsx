@@ -2,6 +2,7 @@ import { X, DiamondPercent } from "lucide-react";
 import { MoveRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Feature from "@/components/featurer/Feature"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       </button>
       <Navbar />
       <Hero />
+      <Feature />
     </main>
   );
 }
