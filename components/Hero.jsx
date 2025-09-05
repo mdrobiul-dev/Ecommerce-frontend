@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@/components/Button"
 
 const Hero = () => {
   return (
@@ -20,6 +21,7 @@ const Hero = () => {
           your whole life or you're a Tour pro, your <br />
           swing is like a fingerprint.
         </div>
+        <Button className="mr-53" />
       </div>
     </div>
   );
