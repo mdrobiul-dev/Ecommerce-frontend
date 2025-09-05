@@ -24,12 +24,7 @@ const ProductCard = ({
 
       {/* Product Image */}
       <div className="relative w-full h-64 flex items-center justify-center bg-gray-50">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-contain p-4"
-        />
+        <Image src={image} alt={title} fill className="object-contain p-4" />
 
         {/* Add to Cart (shows on hover) */}
         <button
@@ -64,4 +59,4 @@ const ProductCard = ({
   );
 };
 
-export default ProductCard;
+export default ProductCard; 
