@@ -15,6 +15,7 @@ const Feature = () => {
       </div>
       <div>
         <ProductCard
+          className="w-40"
           title="Shark - Men's cabretta white golf glove"
           price="$19.00"
           image="/Card.png"
